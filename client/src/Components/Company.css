@@ -1,0 +1,29 @@
+.dropdown-menu .open {
+    position:absolute !important;
+    top: 100% !important;
+    left: 0;
+    z-index: 1000;
+    margin:2px 0 0;
+
+}
+.dropdown-menu .inner{
+    position: static !important;
+    float: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+span.filter-option{
+    font-size: 14px;
+    color: #555;
+
+}
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+    position: absolute !important;
+    display: inline-block !important;
+    right: 15px !important;
+    margin-top: 5px !important;
+}

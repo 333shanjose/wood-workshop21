@@ -1,0 +1,114 @@
+div.social-info{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.navbar-static-top{
+    
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header.rows{
+    margin:0;
+}
+.navbar-default{
+  background:none rgba(19, 16, 14, 0.8);
+  border:0px;
+  border-color: transparent;
+  position: relative;
+  padding: 5px 0px;
+  padding-left: 8px;
+  margin-bottom: 0;
+  border-radius: 4px;
+  display:block;
+  
+}
+.navbar-default .rows{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.rows::before{
+    
+    content: "";
+    display: table;
+    box-sizing: border-box;
+
+}
+
+.rows::after{
+    clear: both;
+    content: " ";
+    display:table;
+    
+}
+.navbar-default .menu .navbar-right li a:hover, .navbar-default .menu .navbar-right li a:focus{
+    color: #c89551; 
+}
+
+.collapse .navbar-nav .dropdown-menu{
+    position: absolute !important;
+}
+
+.containers::before{
+    content:'';
+    display:table;
+
+}
+.containers::after{
+    clear:both;
+    content:'';
+    display:table;
+}
+.dropdown-toggle::after{
+    content:none;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+
+header.fixed {
+    position: fixed;
+    background-color: white;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  header.fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  header.fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  header.slide-in {
+    animation: slideIn 0.5s ease-in;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+}  
+header.rows.affix .social-info{
+   display: none;
+}
+
+
+
+
+
+
+
+

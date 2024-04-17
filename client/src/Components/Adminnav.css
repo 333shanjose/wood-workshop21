@@ -1,0 +1,97 @@
+html:not(.layout-navbar-fixed):not(.layout-menu-fixed):not(.layout-menu-fixed-offcanvas) .layout-page, html:not(.layout-navbar-fixed) .layout-content-navbar .layout-page {
+    padding-top: 0 !important;
+}
+@media (min-width: 1200px){
+.layout-menu-fixed:not(.layout-menu-collapsed) .layout-page, .layout-menu-fixed-offcanvas:not(.layout-menu-collapsed) .layout-page {
+    padding-left: 16.25rem;
+   
+}
+}
+.layout-content-navbar .layout-page {
+    flex-basis: 100%;
+    flex-direction: column;
+    width: 0;
+    min-width: 0;
+    max-width: 100%;
+}
+.layout-menu-fixed .layout-navbar-full .layout-menu, .layout-page {
+    padding-top: 0px!important;
+   
+}
+.layout-page {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: stretch;
+    padding: 0;
+}
+.layout-page, .content-wrapper, .content-wrapper > *, .layout-menu {
+    min-height: 1px;
+   
+}
+.layout-navbar-fixed body:not(.modal-open) .layout-content-navbar .layout-navbar, .layout-menu-fixed body:not(.modal-open) .layout-content-navbar .layout-navbar, .layout-menu-fixed-offcanvas body:not(.modal-open) .layout-content-navbar .layout-navbar {
+    z-index: 1075;
+}
+
+ .header-section {
+    position: fixed;
+    top: 0;
+    left: 175px;
+
+    width: 100%;
+    z-index: 100;
+
+}
+.header-section {
+    background: #fff;
+    border-bottom: 1px solid #eff0f4;
+
+
+}
+.dropdown-toggle::after{
+    content:none !important;
+}
+
+.menu-right {
+ margin-right: 205px;
+
+}
+.menu-right {
+    float: right;
+}
+.notification-menu {
+    list-style: none;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+.notification-menu > li {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.notification-menu .dropdown-toggle:hover, .notification-menu .dropdown-toggle:focus, .notification-menu .dropdown-toggle:active, .notification-menu .dropdown-toggle.active, .notification-menu .open .dropdown-toggle.dropdown-toggle {
+    background: #000000;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-image: none;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+}
+.notification-menu .dropdown-toggle {
+    padding: 12px 10px;
+    border-color: #fff;
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: none;
+}
